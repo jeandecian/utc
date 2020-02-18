@@ -53,6 +53,11 @@ git remote add origin git@github.com:<YOUR_ACCOUNT>/<YOUR_REPOS>.git
 git push -u --force origin master
 ```
 
+### Get Git repository URL
+```
+git remote get-url origin
+```
+
 ### Keep a fork up to date
 ```
 git clone git@github.com:<YOUR_ACCOUNT>/<YOUR REPOS>.git
