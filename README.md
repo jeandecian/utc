@@ -75,6 +75,18 @@ bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
 
+## OS
+
+### Get MacOS version
+```
+sw_vers -productVersion
+```
+
+### Get Ubuntu Distribution OS version
+```
+lsb_release -d
+```
+
 ## SSH
 
 ### Generate new SSH Key
